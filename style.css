@@ -1,0 +1,61 @@
+/* .displayImage
+{
+    object-position: center;
+} */
+#puzzle-wrapper {
+    margin: 20px auto;
+  }
+  
+  #puzzle_wrapper {
+    position: relative;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+  }
+  
+  .cell {
+    position: absolute;
+    border: 1px solid #fff;
+  }
+  
+  .cell.empty {
+    background-color: #fff;
+    border: none;
+  }
+  
+  .form-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .form-wrapper input[type="text"],
+  .form-wrapper input[type="file"],
+  .form-wrapper select {
+    margin-top: 10%;
+    margin-right: 50px;
+    
+  }
+  
+  .form-wrapper input[type="submit"] {
+    margin-left: 5px;
+  }
+  
+  .message {
+    margin-top: 10px;
+    /* font-weight: bold; */
+    text-align: center;
+  }
+  body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShVqWoz16VVdylJA-DH5dKIsCWO4Z_Cyfihg&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  }
+
+  @media screen and (max-width: 200px) {
+    *{
+        margin:0;
+        padding: 0;
+    }
+} 
